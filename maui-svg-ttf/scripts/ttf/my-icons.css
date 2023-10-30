@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "my-icons";
+    src: url("./my-icons.ttf?9e8a801938f238fe28d20f84a55ff255") format("truetype");
+}
+
+i[class^="icon-"]:before, i[class*=" icon-"]:before {
+    font-family: my-icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-globe:before {
+    content: "\e000";
+}
