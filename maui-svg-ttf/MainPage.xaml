@@ -9,9 +9,8 @@
             Padding="30,0"
             VerticalOptions="Center">
 
-            <Label
-               Text="Globe &#xe000;"
-                FontFamily="my-icons"/>
+            <Label Text="Globe &#xe000;" FontFamily="my-icons" TextColor="{Binding Color}"/>
+            <Slider Minimum="0" Maximum="255" Value="{Binding RedValue, Mode=TwoWay}"/>
 
         </VerticalStackLayout>
     </ScrollView>
