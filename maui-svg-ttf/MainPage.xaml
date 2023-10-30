@@ -10,6 +10,11 @@
             VerticalOptions="Center">
 
             <Label Text="Globe &#xe000;" FontFamily="my-icons" TextColor="{Binding Color}"/>
+            <Image HeightRequest="32" WidthRequest="32">
+                <Image.Source>
+                    <FontImageSource Glyph="&#xe000;" FontFamily="my-icons" Color="{Binding Color}" Size="32" />
+                </Image.Source>
+            </Image>
             <Slider Minimum="0" Maximum="255" Value="{Binding RedValue, Mode=TwoWay}"/>
 
         </VerticalStackLayout>
