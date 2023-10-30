@@ -3,7 +3,7 @@ module.exports = {
     fontHeight: 500,
     normalize: true,
     inputDir: 'svg',
-    outputDir: 'ttf',
+    outputDir: '/tmp/maui-svg-ttf',
     fontTypes: ['ttf'],
     assetTypes: ['css', 'json', 'html'],
     formatOptions: {
