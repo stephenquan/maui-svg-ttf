@@ -1,6 +1,8 @@
 # maui-svg-ttf
 
-.NET MAUI application that demonstrates pre-convertsion of SVG to TTF to maintain native vector support (i.e. can resize at runtime) as well as recolor.
+.NET MAUI application that demonstrates recoloring, resizing, and rotation of vector graphics.
+This repro includes a script for converting SVG icons to a TTF font.
+The .NET MAUI demonstrates how to access the icons from the TTF font.
 
 ## 1. Convert your SVGs into a single TTF
 
