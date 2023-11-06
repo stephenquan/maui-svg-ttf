@@ -16,8 +16,11 @@ namespace maui_svg_ttf
                     fonts.AddFont("my-icons.ttf", "my-icons");
                 });
 
+            builder.Services.AddTransient<MainViewModel>();
+            builder.Services.AddTransient<MainPage>();
+
 #if DEBUG
-		builder.Logging.AddDebug();
+		    builder.Logging.AddDebug();
 #endif
 
             return builder.Build();

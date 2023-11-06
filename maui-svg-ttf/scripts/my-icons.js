@@ -12,7 +12,10 @@ module.exports = {
         }
     },
     codepoints: {
-        'globe': 57344, // decimal representation of 0xe000
+        'globe': 0xe000,
+        'compass': 0xe001,
+        'locator': 0xe002,
+        'shield': 0xe003
     },
     getIconId: ({
         basename, // `string` - Example: 'foo';
